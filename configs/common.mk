@@ -14,10 +14,8 @@ PRODUCT_PACKAGES += \
     su \
     AppWidgetPicker \
     openvpn \
-    FileExplorer \
-    Trebuchet \
-    TweakGS2 \
-    SwagPapers
+    SwagPapers \
+    AOKPtips
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
