@@ -5,7 +5,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID=IMM76I BUILD_VERSION_TAGS=relea
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.rommanager.developerid=teamkang \
     ro.aokp.version=$(TARGET_PRODUCT)_build-37
-
+    ro.aokp.version+=_rodries_$(shell date +"%Y%m%d")
+    
 # Goo updater app
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.goo.developerid=aokp \
