@@ -23,4 +23,4 @@ PRODUCT_RELEASE_NAME := SGS2
 
 # Copy maguro specific prebuilt files
 PRODUCT_COPY_FILES += \
-    vendor/aokp/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
+    vendor/aokp/prebuilt/bootanimation/bootanimation_480_800.zip:system/media/bootanimation.zip
